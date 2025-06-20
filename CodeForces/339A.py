@@ -1,0 +1,5 @@
+expression = input().strip()
+terms = expression.split('+')
+sorted_terms = sorted(terms, key=int)
+result = '+'.join(sorted_terms)
+print(result)
